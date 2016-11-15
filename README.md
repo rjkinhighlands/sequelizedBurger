@@ -1,6 +1,7 @@
 # sequelizedBurger
 
-Node, Express, Handlebars, and MyS!L burger app that allows user to select a burger or side and then 'devour' it.  This uses the Sequelize ORM rather than raw MySQL queries.
+Node, Express, Handlebars, and MySQL app that allows user to select a burger and then 'devour' it.  
+This uses the Sequelize ORM rather than raw MySQL queries.
 
 ## Technologies used
 
