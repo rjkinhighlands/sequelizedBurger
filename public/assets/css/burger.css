@@ -1,0 +1,30 @@
+body{
+  background: url('../img/wimpyburger.gif');
+ 	background-size: 50%;
+  font-family: 'Coiny', cursive;
+  font-size: 20px;
+}
+nav {
+  background-color: gray !important;
+  border-radius: 20px;
+  opacity:.85;
+  width: 100%;
+  height: 60px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.row{
+  border-radius: 20px;
+  opacity:.85;
+}
+
+.card{
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.btn{
+  border-radius: 20px;
+  font-size: 15px;
+}
