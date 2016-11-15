@@ -1,8 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-var burger = require('../models') ['Burgers'];
+var Burger = require('../models') ['Burgers'];
 Burger.sync();
+
 
 router.get('/', function(req, res){
 	var info = {
@@ -19,9 +20,7 @@ Burger.findAll({
 
 	res.render('index', info);
 	});
-
   });
-}
 
 // NEW BURGER //
 

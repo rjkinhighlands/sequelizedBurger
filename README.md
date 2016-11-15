@@ -21,6 +21,6 @@ Node, Express, Handlebars, and MyS!L burger app that allows user to select a bur
 * Terminal
 * Heroku
 
-## Authors
+## Author
 
 Robert J. Kelly - JS/Node.js/Handlebars - Robert J. Kelly

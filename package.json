@@ -1,7 +1,7 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node, Express, Handlebars, and MyS!L burger app that allows user to select a burger or side and then 'devour' it.  This uses the Sequelize ORM rather than raw MySQL queries.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rjkinhighlands/burger.git"
+    "url": "git+https://github.com/rjkinhighlands/sequelizedBurger.git"
   },
   "keywords": [],
   "author": "RJ Kelly",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rjkinhighlands/burger/issues"
+    "url": "https://github.com/rjkinhighlands/sequelizedBurger/issues"
   },
-  "homepage": "https://github.com/rjkinhighlands/burger#readme",
+  "homepage": "https://github.com/rjkinhighlands/sequelizedBurger#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
@@ -28,5 +28,6 @@
   },
   "engines": {
     "node": "6.5.0"
-  }
+  },
+  "devDependencies": {}
 }
